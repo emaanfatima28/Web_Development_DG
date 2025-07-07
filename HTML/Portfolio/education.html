@@ -5,27 +5,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Education</title>
+  <link rel="stylesheet" href="educationStyle.css">
 </head>
 
 <body>
   <header>
-    <h1>Education</h1>
+  
+     <div id="navbar">
+            <a href="/home.html">Home</a>
+            <a href="/education.html">Education</a>
+            <a href="/projects.html">Projects</a>
+            <a href="/contact.html">Contact Me</a>
+        </div>
+          <h1>Education</h1>
   </header>
 
   <main>
-    <b>Matric</b><br>Divisional Model College<br>
+  <div id="edu-container">
+    <div class="edu-card">
+     <a href="https://www.dmc.edu.pk/" target="_blank"><img src="/images/school.jpeg" class="edu-img" alt="School"></a> 
+      <p><b>School</b><br>Divisional Model College<br>2009-2020</p>
+    </div>
 
-    <img src="/school.jpeg">
-    <hr>
-    <b>F.Sc</b><br><b>Pre-Engineering</b><br>Punjab Group of College
-    <br>
+    <div class="edu-card">
+     <a href="https://admissions.pgc.edu/" target="_blank"><img src="/images/college.jpg" class="edu-img" alt="College"></a> 
+      <p><b>College</b><br><b>F.Sc(Pre-Engineering)</b><br>Punjab Group of Colleges<br>2020-2022</p>
+    </div>
 
-    <hr>
-    <b> Bachelors of Science</b><br><b> Software Engineering</b><br>FAST NUCES<br>
-    <b>Semester: </b>7<br>
-    <img src="/uni.jpg" height="160">
-    <br>
-  </main>
+    <div class="edu-card">
+      <a href="https://cfd.nu.edu.pk/" target="_blank"><img src="/images/uni.jpg" class="edu-img" alt="University"></a>
+      <p><b>University</b><br><b>BS(SE)</b><br>FAST NUCES<br>2022-2026</p>
+    </div>
+  </div>
+</main>
 
   <footer>
     <p>© 2025 Emaan Fatima</p>
