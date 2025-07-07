@@ -1,0 +1,172 @@
+/* *{
+    font-family: 'Times New Roman', Times, serif;
+}
+    Practice Set 1
+#box{
+background-color: blue;
+color: wheat;
+height: 100px;
+width: 100px;
+padding: 1px 2px 3px 4px;
+border: 2px solid greenyellow;
+}
+
+.heading{
+    color: red;
+}
+
+button{
+    background-color: green;
+}
+
+Practice Set 2
+#head{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+} */
+
+/* Practice Set 3
+#div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+} */
+
+/* *{
+    padding: 0;
+    margin: 0;
+}
+
+#navbar{
+    background-color: rgba(0,0,0,1);
+    height: 60px;
+}
+
+#logo{
+    font-size: 25px;
+    padding-left: 0;
+    color: orange;
+}
+
+a{
+    color: white;
+    margin-right: 200px;
+}
+button{
+    background-color: orange;
+}
+
+.contentBox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#divOne{
+   background-color: rgba(139,69,19,0.75)
+}
+
+#divTwo{
+   background-color: rgba(139,69,19,0.5)
+}
+
+#divThree{
+   background-color: rgba(139,69,19,0.25)
+}
+
+#content{
+    height: 546px;
+}
+footer{
+    background-color: rgba(0,0,0,1);
+    color: white;
+    text-align: center;
+} */
+
+/* div{
+    height: 100px;
+    width: 100px;
+    background-image: url("sunset.jpg");
+    background-size: cover;
+    border: 2px solid black;
+    color: orange;
+    position: fixed;
+    left: 1250px;
+    bottom: 0;
+} */
+
+/* #navbar{
+    background-color: pink;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+    background-color: maroon;
+} */
+/* 
+.outer{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+div{
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+}
+
+/* @media (min-width : 300px){
+    div{
+        background-color: green;
+    }
+} */
+
+/* @media (min-width : 300px) and (max-width : 400px){
+    div{
+        background-color: pink;
+    }
+} */
+
+/* @media (min-width : 600px){
+    div{
+        background-color: blue;
+    }
+}  */
+
+#loader{
+    height: 200px;
+    width:200px;
+    border: 10px solid burlywood;
+    border-left: 10px solid grey;
+    border-radius: 50%;
+    animation: spinAnimation 2s steps(7) 0s infinite normal;
+}
+
+@keyframes spinAnimation{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
