@@ -1,0 +1,18 @@
+#nav{
+    background-color:cadetblue;
+}
+a{
+    color: burlywood;
+}
+
+.orange{
+    background-color: orange;
+}
+
+button{
+ background-color: white;
+}
+
+#time-container{
+    justify-content: center;
+}
